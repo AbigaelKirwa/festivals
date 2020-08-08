@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto&display=swap" rel="stylesheet">
+    <title>Sign Up</title>
+    
+</head>
+<body>
+    <div class="entire">
+        
+        <input type="checkbox" id="check">
+        <label for="check">
+        <i class="fas fa-bars" id="btn"></i>
+        <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+        <header>Mapple Planners</header>
+        <ul>
+            <li><a href="#"><i class="fas fa-house-user"></i>  Home</a></li>
+            <li><a href="#"><i class="far fa-calendar-check"></i>  Events</a></li>
+            <li><a href="#"><i class="fas fa-running	"></i>  Activities</a></li>
+            <li><a href="#"><i class="fab fa-canadian-maple-leaf"></i>  About</a></li>
+            <li><a href="#"><i class="far fa-handshake"></i>  Volunteer</a></li>
+            <li><a href="#"><i class="fas fa-portrait"></i>  Organizers</a></li>
+        </ul>
+    </div>
+    </div>
+        <div class="pic">
+            <img src="main.png">
+        </div>
+        <div class="sign">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <form action="connect.php" method="POST">
+                        <h2><strong>Sign up</strong></h2>
+                        <div class="form group">
+                            <label for="username">Username</label>
+                            <input type="text" name="username" class="form-control form-control-lg">
+                        </div>
+                        <div class="form group">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" class="form-control form-control-lg">
+                        </div>
+                        <div class="form group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" class="form-control form-control-lg">
+                        </div>
+                        <div class="form group">
+                            <label for="Passwordconf">Password Confirm</label>
+                            <input type="password" name="passwordconf" class="form-control form-control-lg">
+                        </div>
+                        <div class="form group">
+                            <div class="buttonz">
+                            <a href="#"><button type="button" class="btn btn-warning btn-lg" name=Signmeup> 
+                                 <strong>Sign me up!</strong> </button></a>
+                        </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
